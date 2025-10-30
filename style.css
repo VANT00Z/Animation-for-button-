@@ -1,0 +1,29 @@
+border-ex-inf{
+  color: rgba(217, 217, 217, 1);
+}
+
+.ex-info{
+  display: inline-block;
+  background-color: rgba(217, 217, 217, 1);
+  color: #333;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: none;
+  cursor: pointer;
+}
+
+.ex-info:hover{
+  background-color: rgba(200, 200, 200, 1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.ex-info:active{
+  transform: translateY(0);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
